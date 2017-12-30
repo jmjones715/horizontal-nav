@@ -21,14 +21,15 @@ body {
   border-bottom: 3px solid #595652;
 }
 
-.header h1 {
-  font-family: "Bevan", cursive;
+h1 {
+  font-family: Bevan, cursive;
   text-align: center;
   margin: 0;
   color: #fff;
 }
 
 .header nav {
+  font-family: sans-serif;
   margin: .3em;
   padding: 0;
   text-align: center;
