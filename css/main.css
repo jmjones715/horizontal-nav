@@ -12,44 +12,48 @@ body {
   margin: 0;
 }
 
-.HorNav {
+.header {
   margin: 0;
-  padding: .75em;
+  padding: 0;
   list-style-type: none;
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
 }
 
-.HorNav h1 {
-  font-family: 'Bevan', cursive;
+.header h1 {
+  font-family: "Bevan", cursive;
   text-align: center;
   margin: 0;
   color: #fff;
 }
 
-.HorNav ul {
+.header nav {
   margin: .3em;
   padding: 0;
   text-align: center;
 }
 
-.HorNav li {
-  display: inline-block;
-  margin: .3em;
+.header ul {
+  margin: 0;
+  padding: 0;
 }
 
- .HorNav a {
-   display: inline-block;
-   color: #fff;
-   background-color: #713837;
-   padding: .6em .75em;
+.header li {
+  display: inline-block;
+  margin: .2em;
+}
 
-   border-radius: 4px;
-   text-decoration: none;
- }
+.header a {
+  display: inline-block;
+  color: #fff;
+  background-color: #713837;
+  padding: .5em .75em;
+  border-radius: 4px;
+  text-decoration: none;
+}
 
- .HorNav a:hover {
-   color: #fff;
-   background-color: #f33;
- }
+.header a:hover {
+  color: #fff;
+  background-color: #f33;
+}
