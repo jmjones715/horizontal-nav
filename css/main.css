@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.HorNav {
+  margin: 0;
+  padding: .75em;
+  list-style-type: none;
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
+.HorNav h1 {
+  font-family: 'Bevan', cursive;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+.HorNav ul {
+  margin: .3em;
+  padding: 0;
+  text-align: center;
+}
+
+.HorNav li {
+  display: inline-block;
+  margin: .3em;
+}
+
+ .HorNav a {
+   display: inline-block;
+   color: #fff;
+   background-color: #713837;
+   padding: .6em .75em;
+
+   border-radius: 4px;
+   text-decoration: none;
+ }
+
+ .HorNav a:hover {
+   color: #fff;
+   background-color: #f33;
+ }
